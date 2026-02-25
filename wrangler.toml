@@ -7,6 +7,12 @@ route = ""
 zone_id = ""
 compatibility_date = "2022-03-25"
 
+[build]
+command = "npm install && npm run build"
+
+[build.upload]
+format = "service-worker"
+
 kv_namespaces = [
   { binding = "ViewCounter", id = "47d2fbdb19204aaab95e04beb84506c8" }
 ]
