@@ -1,8 +1,11 @@
 name = "rah-stats"
 type = "javascript"
-main = "index.js"
-compatibility_date = "2022-05-15"
+
+account_id = ""
 workers_dev = true
+route = ""
+zone_id = ""
+compatibility_date = "2022-03-25"
 
 kv_namespaces = [
   { binding = "ViewCounter", id = "47d2fbdb19204aaab95e04beb84506c8" }
